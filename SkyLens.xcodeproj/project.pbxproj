@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AAECB35DACC46C92BC6CC3 /* FlightTrack/Core/Aircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5902A6032566AB5E58526E /* FlightTrack/Core/Aircraft.swift */; };
+		1291ADAE0636A68B171B6D27 /* FlightTrack/Core/FlightDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9EEBFE8059334624895695 /* FlightTrack/Core/FlightDataClient.swift */; };
+		23AFFFCB873DADCD81F7F2D7 /* FlightTrack/Core/DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2395D6C42B5927F6E2C77C1D /* FlightTrack/Core/DemoData.swift */; };
+		300E4201812C04AFAAFFB2F5 /* FlightTrack/Core/AircraftDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4999E50DA0DBC47D7E348E3 /* FlightTrack/Core/AircraftDetails.swift */; };
+		3DA53AD00F545ABEEBEF65C3 /* FlightTrack/AR/ARFlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1028E29D9B627110737C72AE /* FlightTrack/AR/ARFlightView.swift */; };
+		45807C018A5E3A3647F1057A /* FlightTrack/App/LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26A95A4BE6CF567B6115978 /* FlightTrack/App/LocationService.swift */; };
+		4B8B83439F4B50203A86635A /* FlightTrack/App/FlightTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1131DEF0BC6DB83C2C51F5 /* FlightTrack/App/FlightTrackApp.swift */; };
+		6E9A9D2D00BAF08691BD2373 /* FlightTrack/Core/DetailsDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD845EFD72DD44C554DD0F8 /* FlightTrack/Core/DetailsDataClient.swift */; };
+		716E9590E60B3AFA6E62BF18 /* FlightTrack/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3685E330EC5277A9DD5661C6 /* FlightTrack/Resources/Assets.xcassets */; };
+		75255D101B6A31D4CB4E5E13 /* FlightTrack/Views/SkyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D464B039DFCC7CE482FEA31 /* FlightTrack/Views/SkyTheme.swift */; };
+		9A4C27EF9A59E9FD0E9F9D86 /* FlightTrack/Core/FlightGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2E3EEF12D9892DC70BC327 /* FlightTrack/Core/FlightGeometry.swift */; };
+		9C7167038D8591052F42A566 /* FlightTrack/Views/FlightSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C472FF8859A31597FF47EC92 /* FlightTrack/Views/FlightSettingsView.swift */; };
+		BF3D1C9D663E84FFE65A2F87 /* FlightTrack/Views/FlightDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DAB806409F825657D8730E /* FlightTrack/Views/FlightDashboardView.swift */; };
+		DE586E146F808C0582E57244 /* FlightTrack/Views/FlightDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37CB447239D9D65811C2C80 /* FlightTrack/Views/FlightDetailView.swift */; };
+		E1C83A6A6CD12951CDDA6B08 /* FlightTrack/Views/FlightMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E9B1019F266F00E6944A /* FlightTrack/Views/FlightMapView.swift */; };
+		E20C26696F478D227F573869 /* FlightTrack/App/FlightStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC84C2156C3C721591575DB /* FlightTrack/App/FlightStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1028E29D9B627110737C72AE /* FlightTrack/AR/ARFlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/AR/ARFlightView.swift; sourceTree = SOURCE_ROOT; };
+		2395D6C42B5927F6E2C77C1D /* FlightTrack/Core/DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Core/DemoData.swift; sourceTree = SOURCE_ROOT; };
+		2A2E3EEF12D9892DC70BC327 /* FlightTrack/Core/FlightGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Core/FlightGeometry.swift; sourceTree = SOURCE_ROOT; };
+		2E5902A6032566AB5E58526E /* FlightTrack/Core/Aircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Core/Aircraft.swift; sourceTree = SOURCE_ROOT; };
+		3685E330EC5277A9DD5661C6 /* FlightTrack/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlightTrack/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		38A007151ABE87CC01A5B6E9 /* SkyLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BD0A3FF43B32849B319E64 /* FlightTrack/Resources/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FlightTrack/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		5F96E9B1019F266F00E6944A /* FlightTrack/Views/FlightMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Views/FlightMapView.swift; sourceTree = SOURCE_ROOT; };
+		6FD845EFD72DD44C554DD0F8 /* FlightTrack/Core/DetailsDataClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Core/DetailsDataClient.swift; sourceTree = SOURCE_ROOT; };
+		82DAB806409F825657D8730E /* FlightTrack/Views/FlightDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Views/FlightDashboardView.swift; sourceTree = SOURCE_ROOT; };
+		8C1131DEF0BC6DB83C2C51F5 /* FlightTrack/App/FlightTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/App/FlightTrackApp.swift; sourceTree = SOURCE_ROOT; };
+		9D464B039DFCC7CE482FEA31 /* FlightTrack/Views/SkyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Views/SkyTheme.swift; sourceTree = SOURCE_ROOT; };
+		9EC84C2156C3C721591575DB /* FlightTrack/App/FlightStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/App/FlightStore.swift; sourceTree = SOURCE_ROOT; };
+		C26A95A4BE6CF567B6115978 /* FlightTrack/App/LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/App/LocationService.swift; sourceTree = SOURCE_ROOT; };
+		C472FF8859A31597FF47EC92 /* FlightTrack/Views/FlightSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Views/FlightSettingsView.swift; sourceTree = SOURCE_ROOT; };
+		C4999E50DA0DBC47D7E348E3 /* FlightTrack/Core/AircraftDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Core/AircraftDetails.swift; sourceTree = SOURCE_ROOT; };
+		ED9EEBFE8059334624895695 /* FlightTrack/Core/FlightDataClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Core/FlightDataClient.swift; sourceTree = SOURCE_ROOT; };
+		F37CB447239D9D65811C2C80 /* FlightTrack/Views/FlightDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTrack/Views/FlightDetailView.swift; sourceTree = SOURCE_ROOT; };
+		F78A71AF8BBF8CC2F6F31354 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		870B3294C0CBD48AF6BBCC1B = {
+			isa = PBXGroup;
+			children = (
+				1028E29D9B627110737C72AE /* FlightTrack/AR/ARFlightView.swift */,
+				9EC84C2156C3C721591575DB /* FlightTrack/App/FlightStore.swift */,
+				8C1131DEF0BC6DB83C2C51F5 /* FlightTrack/App/FlightTrackApp.swift */,
+				C26A95A4BE6CF567B6115978 /* FlightTrack/App/LocationService.swift */,
+				2E5902A6032566AB5E58526E /* FlightTrack/Core/Aircraft.swift */,
+				C4999E50DA0DBC47D7E348E3 /* FlightTrack/Core/AircraftDetails.swift */,
+				2395D6C42B5927F6E2C77C1D /* FlightTrack/Core/DemoData.swift */,
+				6FD845EFD72DD44C554DD0F8 /* FlightTrack/Core/DetailsDataClient.swift */,
+				ED9EEBFE8059334624895695 /* FlightTrack/Core/FlightDataClient.swift */,
+				2A2E3EEF12D9892DC70BC327 /* FlightTrack/Core/FlightGeometry.swift */,
+				82DAB806409F825657D8730E /* FlightTrack/Views/FlightDashboardView.swift */,
+				F37CB447239D9D65811C2C80 /* FlightTrack/Views/FlightDetailView.swift */,
+				5F96E9B1019F266F00E6944A /* FlightTrack/Views/FlightMapView.swift */,
+				C472FF8859A31597FF47EC92 /* FlightTrack/Views/FlightSettingsView.swift */,
+				9D464B039DFCC7CE482FEA31 /* FlightTrack/Views/SkyTheme.swift */,
+				3685E330EC5277A9DD5661C6 /* FlightTrack/Resources/Assets.xcassets */,
+				59BD0A3FF43B32849B319E64 /* FlightTrack/Resources/Info.plist */,
+				F78A71AF8BBF8CC2F6F31354 /* README.md */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* SkyLens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* SkyLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976B52545947CA66FD9EF2A4 /* Build configuration list for PBXNativeTarget "SkyLens" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyLens;
+			productName = SkyLens;
+			productReference = 38A007151ABE87CC01A5B6E9 /* SkyLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					0E8A3AD980EC179856012B7E = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "SkyLens" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = 870B3294C0CBD48AF6BBCC1B;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* SkyLens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716E9590E60B3AFA6E62BF18 /* FlightTrack/Resources/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA53AD00F545ABEEBEF65C3 /* FlightTrack/AR/ARFlightView.swift in Sources */,
+				E20C26696F478D227F573869 /* FlightTrack/App/FlightStore.swift in Sources */,
+				4B8B83439F4B50203A86635A /* FlightTrack/App/FlightTrackApp.swift in Sources */,
+				45807C018A5E3A3647F1057A /* FlightTrack/App/LocationService.swift in Sources */,
+				02AAECB35DACC46C92BC6CC3 /* FlightTrack/Core/Aircraft.swift in Sources */,
+				300E4201812C04AFAAFFB2F5 /* FlightTrack/Core/AircraftDetails.swift in Sources */,
+				23AFFFCB873DADCD81F7F2D7 /* FlightTrack/Core/DemoData.swift in Sources */,
+				6E9A9D2D00BAF08691BD2373 /* FlightTrack/Core/DetailsDataClient.swift in Sources */,
+				1291ADAE0636A68B171B6D27 /* FlightTrack/Core/FlightDataClient.swift in Sources */,
+				9A4C27EF9A59E9FD0E9F9D86 /* FlightTrack/Core/FlightGeometry.swift in Sources */,
+				BF3D1C9D663E84FFE65A2F87 /* FlightTrack/Views/FlightDashboardView.swift in Sources */,
+				DE586E146F808C0582E57244 /* FlightTrack/Views/FlightDetailView.swift in Sources */,
+				E1C83A6A6CD12951CDDA6B08 /* FlightTrack/Views/FlightMapView.swift in Sources */,
+				9C7167038D8591052F42A566 /* FlightTrack/Views/FlightSettingsView.swift in Sources */,
+				75255D101B6A31D4CB4E5E13 /* FlightTrack/Views/SkyTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00F209874A1F7309F6DCEAA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1A6EFC2CD0AF63DD14BE0438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 52AJW92F8Y;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FlightTrack/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = skylens;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaonewmi.skylens;
+				PRODUCT_NAME = SkyLens;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D8F54E7CBAF670D9F6C230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 52AJW92F8Y;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FlightTrack/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = skylens;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaonewmi.skylens;
+				PRODUCT_NAME = SkyLens;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8772ADEC3A6C25161BC957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		640DC9EFD529235A8D9E2727 /* Build configuration list for PBXProject "SkyLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8772ADEC3A6C25161BC957 /* Debug */,
+				00F209874A1F7309F6DCEAA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976B52545947CA66FD9EF2A4 /* Build configuration list for PBXNativeTarget "SkyLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8F54E7CBAF670D9F6C230D /* Debug */,
+				1A6EFC2CD0AF63DD14BE0438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
